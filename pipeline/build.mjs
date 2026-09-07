@@ -48,9 +48,18 @@ const keyParts = (s) => {
   const m = /^(\D*)(\d*)(.*)$/.exec(s);
   return [m[1], m[2] ? Number(m[2]) : Infinity, m[3]];
 };
+// Line RANK (7.09.2026, user rule for the whole family): trolleybuses first,
+// day lines next, NIGHT lines last — in every list the map prints: the panel,
+// the number rows along the streets, the terminus badge grids. The night
+// rule is this city's own (NIGHT, tested on the printed number); the
+// trolleybuses are whatever the feed loop painted green (TROLLEYS).
+const NIGHT = /^n/;
+const TROLLEYS = new Set();
+const lineRank = (k) => (TROLLEYS.has(k) ? 0
+  : NIGHT.test(typeof LBL !== 'undefined' && LBL.has(k) ? LBL.get(k) : k) ? 2 : 1);
 const numSort = (a, b) => {
   const A = keyParts(a), B = keyParts(b);
-  return A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]);
+  return lineRank(a) - lineRank(b) || A[0].localeCompare(B[0]) || (A[1] - B[1]) || A[2].localeCompare(B[2]);
 };
 function round6(v) { return Math.round(v * 1e6) / 1e6; }
 // dark variant for feed-supplied line colors (badge rims / terminus fills)
@@ -166,7 +175,12 @@ const MODES = [{
   color: '#0059a9', colorDark: '#00294f',
   all: busAll, lines: busList.length ? busList : (busAll ? [] : ['64']),
   feeds: [
+    // Atac's three trolleybus lines (user, 7.09.2026): 60 Piazza Venezia –
+    // Largo Pugliese (trolleybuses on select runs, on the 90's wires), 74
+    // Laurentina – Via Rita Brunetti, 90 Termini – Largo Labia. The feed
+    // types them as plain buses; they print green and lead the bus list.
     { tag: 'rm', dir: 'data/gtfs', routeTypes: ['3'],
+      trolley: (r) => ['60', '74', '90'].includes((r.route_short_name || '').trim()),
       mapKey: (sn) => (sn || '').trim() || null, nameFix: romeName },
   ],
 }];
@@ -298,7 +312,7 @@ async function processMode(cfg) {
       if (!key) continue;
       routeToLine.set(r.route_id, key);
       if ((feed.trolley && feed.trolley(r)) || r.route_type === '11') {
-        cfg.trolleySet.add(key);
+        cfg.trolleySet.add(key); TROLLEYS.add(key);
         cfg.lineColors[key] = TROLLEY_GREEN;
         cfg.lineColorsDark[key] = TROLLEY_DARK;
       } else if (feed.mline && feed.mline(r)) {
@@ -1842,6 +1856,6 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   modes: MODES.map((m) => ({ mode: m.mode, label: m.label, color: m.color })),
   // the chips keep `line` as their value (selection matches keys) and print
   // `label` where the city's number differs from the pipeline's key
-  lines: metaLines.map((l) => (LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l)),
+  lines: metaLines.map((l) => ({ ...(LBL.has(l.line) ? { ...l, label: LBL.get(l.line) } : l), rank: lineRank(l.line) })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
