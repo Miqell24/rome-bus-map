@@ -1,6 +1,6 @@
-# Rome Public Transport — interactive map
+# Roma Public Transport — interactive map
 
-Interactive, poster-grade map of the public transport network of **Rome**:
+Interactive, poster-grade map of the public transport network of **Roma** (Rome):
 Atac's 327 lines across the comune, 100 more run by the operators of the near
 province, and the four metro lines in their official colours — 5 244 stops,
 9 349 km.

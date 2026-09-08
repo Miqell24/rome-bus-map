@@ -16801,7 +16801,7 @@
     {
       "line": "n3d",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "P.le Ostiense-Piramide (MB-Rl)",
@@ -16830,7 +16830,7 @@
     {
       "line": "n3s",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Ple Ostiense-Piramide (MB-Rl)",
@@ -16859,7 +16859,7 @@
     {
       "line": "n5",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -16909,7 +16909,7 @@
     {
       "line": "n8",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -16959,7 +16959,7 @@
     {
       "line": "n11",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17009,7 +17009,7 @@
     {
       "line": "n041",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17059,7 +17059,7 @@
     {
       "line": "n46",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17109,7 +17109,7 @@
     {
       "line": "n66",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17159,7 +17159,7 @@
     {
       "line": "n070",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17209,7 +17209,7 @@
     {
       "line": "n70",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17259,7 +17259,7 @@
     {
       "line": "n74",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Laurentina (MB)",
@@ -17288,7 +17288,7 @@
     {
       "line": "n075",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17338,7 +17338,7 @@
     {
       "line": "n90",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17388,7 +17388,7 @@
     {
       "line": "n92",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17438,7 +17438,7 @@
     {
       "line": "n98",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17488,7 +17488,7 @@
     {
       "line": "n200",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17538,7 +17538,7 @@
     {
       "line": "n201",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17588,7 +17588,7 @@
     {
       "line": "n409",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17638,7 +17638,7 @@
     {
       "line": "n500",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17688,7 +17688,7 @@
     {
       "line": "n543",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17738,7 +17738,7 @@
     {
       "line": "n551",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Anagnina (MA)",
@@ -17767,7 +17767,7 @@
     {
       "line": "n705",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17817,7 +17817,7 @@
     {
       "line": "n716",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17867,7 +17867,7 @@
     {
       "line": "n719",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17917,7 +17917,7 @@
     {
       "line": "n781",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -17967,7 +17967,7 @@
     {
       "line": "n904",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18017,7 +18017,7 @@
     {
       "line": "n913",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18067,7 +18067,7 @@
     {
       "line": "nMA",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18117,7 +18117,7 @@
     {
       "line": "nMB1",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "Termini (MA-MB-FS)",
@@ -18146,7 +18146,7 @@
     {
       "line": "nMB",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18196,7 +18196,7 @@
     {
       "line": "nMC",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
@@ -18246,7 +18246,7 @@
     {
       "line": "nME",
       "mode": "bus",
-      "color": "#0059a9",
+      "color": "#000000",
       "dirs": [
         {
           "dir": "0",
