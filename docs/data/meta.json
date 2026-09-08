@@ -16799,6 +16799,210 @@
       "rank": 1
     },
     {
+      "line": "MEA",
+      "mode": "tram",
+      "color": "#E27439",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Battistini (MA)",
+          "variants": 1,
+          "tripCount": 1868,
+          "stops": 27,
+          "lengthKm": 18.56,
+          "stats": {
+            "observations": 722,
+            "matched": 722,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 80,
+            "meanError": 15.061775609022945,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Anagnina (MA)",
+          "variants": 1,
+          "tripCount": 1869,
+          "stops": 27,
+          "lengthKm": 18.55,
+          "stats": {
+            "observations": 721,
+            "matched": 721,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 64,
+            "meanError": 14.968948742498451,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "A",
+      "rank": 1
+    },
+    {
+      "line": "MEB1",
+      "mode": "tram",
+      "color": "#0570B5",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Jonio (MB1)",
+          "variants": 1,
+          "tripCount": 374,
+          "stops": 19,
+          "lengthKm": 17.26,
+          "stats": {
+            "observations": 601,
+            "matched": 601,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 16.61670065516154,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Laurentina (MB)",
+          "variants": 1,
+          "tripCount": 374,
+          "stops": 19,
+          "lengthKm": 17.26,
+          "stats": {
+            "observations": 601,
+            "matched": 601,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 16.40661337133177,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "B1",
+      "rank": 1
+    },
+    {
+      "line": "MEB",
+      "mode": "tram",
+      "color": "#0570B5",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rebibbia (MB)",
+          "variants": 1,
+          "tripCount": 376,
+          "stops": 22,
+          "lengthKm": 18.18,
+          "stats": {
+            "observations": 563,
+            "matched": 561,
+            "noCandidates": 2,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 18.552409623703348,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Laurentina (MB)",
+          "variants": 1,
+          "tripCount": 375,
+          "stops": 22,
+          "lengthKm": 18.18,
+          "stats": {
+            "observations": 563,
+            "matched": 561,
+            "noCandidates": 2,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 18.40516668160149,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "B",
+      "rank": 1
+    },
+    {
+      "line": "MEC",
+      "mode": "tram",
+      "color": "#008456",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Colosseo",
+          "variants": 1,
+          "tripCount": 243,
+          "stops": 24,
+          "lengthKm": 16.46,
+          "stats": {
+            "observations": 627,
+            "matched": 513,
+            "noCandidates": 114,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 19.930921517738756,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pantano",
+          "variants": 1,
+          "tripCount": 243,
+          "stops": 24,
+          "lengthKm": 16.59,
+          "stats": {
+            "observations": 627,
+            "matched": 515,
+            "noCandidates": 112,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 19.83196283704618,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "C",
+      "rank": 1
+    },
+    {
       "line": "n3d",
       "mode": "bus",
       "color": "#000000",
@@ -18292,210 +18496,6 @@
         }
       ],
       "rank": 2
-    },
-    {
-      "line": "MEA",
-      "mode": "tram",
-      "color": "#E27439",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Battistini (MA)",
-          "variants": 1,
-          "tripCount": 1868,
-          "stops": 27,
-          "lengthKm": 18.56,
-          "stats": {
-            "observations": 722,
-            "matched": 722,
-            "noCandidates": 0,
-            "viterbiBreaks": 4,
-            "bridged": 0,
-            "rawStretchCount": 4,
-            "rawMeters": 80,
-            "meanError": 15.061775609022945,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Anagnina (MA)",
-          "variants": 1,
-          "tripCount": 1869,
-          "stops": 27,
-          "lengthKm": 18.55,
-          "stats": {
-            "observations": 721,
-            "matched": 721,
-            "noCandidates": 0,
-            "viterbiBreaks": 4,
-            "bridged": 0,
-            "rawStretchCount": 4,
-            "rawMeters": 64,
-            "meanError": 14.968948742498451,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "A",
-      "rank": 1
-    },
-    {
-      "line": "MEB1",
-      "mode": "tram",
-      "color": "#0570B5",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Jonio (MB1)",
-          "variants": 1,
-          "tripCount": 374,
-          "stops": 19,
-          "lengthKm": 17.26,
-          "stats": {
-            "observations": 601,
-            "matched": 601,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 16.61670065516154,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Laurentina (MB)",
-          "variants": 1,
-          "tripCount": 374,
-          "stops": 19,
-          "lengthKm": 17.26,
-          "stats": {
-            "observations": 601,
-            "matched": 601,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 16.40661337133177,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "B1",
-      "rank": 1
-    },
-    {
-      "line": "MEB",
-      "mode": "tram",
-      "color": "#0570B5",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Rebibbia (MB)",
-          "variants": 1,
-          "tripCount": 376,
-          "stops": 22,
-          "lengthKm": 18.18,
-          "stats": {
-            "observations": 563,
-            "matched": 561,
-            "noCandidates": 2,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 18.552409623703348,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Laurentina (MB)",
-          "variants": 1,
-          "tripCount": 375,
-          "stops": 22,
-          "lengthKm": 18.18,
-          "stats": {
-            "observations": 563,
-            "matched": 561,
-            "noCandidates": 2,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 18.40516668160149,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "B",
-      "rank": 1
-    },
-    {
-      "line": "MEC",
-      "mode": "tram",
-      "color": "#008456",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Colosseo",
-          "variants": 1,
-          "tripCount": 243,
-          "stops": 24,
-          "lengthKm": 16.46,
-          "stats": {
-            "observations": 627,
-            "matched": 513,
-            "noCandidates": 114,
-            "viterbiBreaks": 1,
-            "bridged": 0,
-            "rawStretchCount": 1,
-            "rawMeters": 20,
-            "meanError": 19.930921517738756,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Pantano",
-          "variants": 1,
-          "tripCount": 243,
-          "stops": 24,
-          "lengthKm": 16.59,
-          "stats": {
-            "observations": 627,
-            "matched": 515,
-            "noCandidates": 112,
-            "viterbiBreaks": 1,
-            "bridged": 0,
-            "rawStretchCount": 1,
-            "rawMeters": 20,
-            "meanError": 19.83196283704618,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "label": "C",
-      "rank": 1
     }
   ]
 }
